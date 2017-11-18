@@ -1,0 +1,11 @@
+{
+  "name": "auzy-storage-redis",
+  "version": "1.0.0",
+  "description": "Redis storage for auzy",
+  "main": "index.js",
+  "author": "Alexey Ponomarev <xlz@ya.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "ioredis": "^3.2.1"
+  }
+}
