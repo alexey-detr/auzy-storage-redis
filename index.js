@@ -10,10 +10,10 @@ module.exports = class RedisStorage {
         this.redis = new Redis(config);
     }
 
-    set(key, value, expire = null) {
+    set(key, value, ttl = null) {
         let promise = this.redis.set(key, value);
-        if (expire) {
-            promise = this.redis.expire(expire);
+        if (ttl) {
+            promise = this.redis.expire(ttl);
         }
         return promise;
     }
