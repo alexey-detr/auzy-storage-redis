@@ -2,7 +2,7 @@
 
 const Redis = require('ioredis');
 
-module.exports = class RedisStorage {
+class RedisStorage {
     /**
      * @param config
      */
@@ -26,4 +26,6 @@ module.exports = class RedisStorage {
     del(key) {
         return this.redis.del(key);
     }
-};
+}
+
+module.exports = RedisStorage;
