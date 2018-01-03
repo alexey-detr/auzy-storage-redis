@@ -1,6 +1,6 @@
 {
   "name": "auzy-storage-redis",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Redis storage for auzy",
   "main": "index.js",
   "author": "Alexey Ponomarev <xlz@ya.ru>",
