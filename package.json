@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "Alexey Ponomarev <xlz@ya.ru>",
   "license": "MIT",
+  "repository": "https://github.com/alexey-detr/auzy-storage-redis",
   "dependencies": {
     "ioredis": "^3.2.1"
   },
